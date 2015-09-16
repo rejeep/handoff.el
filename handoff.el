@@ -1,4 +1,4 @@
-;;; handoff.el --- Get your hand of that mouse, damn it!
+;;; handoff.el --- Get your hand off that mouse, damn it!
 
 ;; Copyright (C) 2015 Johan Andersson
 
@@ -56,14 +56,14 @@
   "Keymap for `handoff-mode'.")
 
 (defun handoff! ()
-  "Get your hand of that mouse, damn it!"
+  "Get your hand off that mouse, damn it!"
   (interactive)
   (let ((zone-programs handoff-zone-programs))
     (call-interactively 'zone)))
 
 ;;;###autoload
 (define-minor-mode handoff-mode
-  "Get your hand of that mouse, damn it!"
+  "Get your hand off that mouse, damn it!"
   :init-value nil
   :keymap handoff-mode-map)
 
