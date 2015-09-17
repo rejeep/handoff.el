@@ -1,6 +1,6 @@
 # Handoff!
 
-Get your hand hand of that mouse!
+Get your hand hand off that mouse!
 
 ## Installation
 
